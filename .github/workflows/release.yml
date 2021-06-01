@@ -1,4 +1,4 @@
-name: hinge Release
+name: stricly Release
 
 on:
   push:
