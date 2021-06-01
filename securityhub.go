@@ -51,12 +51,12 @@ type SecurityHubInsightResults struct {
 	Region     string    `json:"region"`
 	Resources  []string  `json:"resources"`
 	Detail     struct {
-		Actionname        string `json:"actionName"`
-		Actiondescription string `json:"actionDescription"`
-		Insightarn        string `json:"insightArn"`
-		Insightname       string `json:"insightName"`
-		Resulttype        string `json:"resultType"`
-		NumberOfResults   string `json:"number of results"`
+		Actionname        string        `json:"actionName"`
+		Actiondescription string        `json:"actionDescription"`
+		Insightarn        string        `json:"insightArn"`
+		Insightname       string        `json:"insightName"`
+		Resulttype        string        `json:"resultType"`
+		NumberOfResults   string        `json:"number of results"`
 		Insightresults    []interface{} `json:"insightResults"`
 	} `json:"detail"`
 }
