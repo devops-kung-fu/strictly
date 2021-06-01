@@ -102,7 +102,7 @@ type Resources []struct {
 	} `json:"DataClassification,omitempty"`
 	Details struct {
 		AWSAPIGatewayRestAPI `json:"AwsApiGatewayRestApi,omitempty"`
-		AWSAPIGatewayStage struct {
+		AWSAPIGatewayStage   struct {
 			AccessLogSettings struct {
 				DestinationARN string `json:"DestinationArn,omitempty"`
 				Format         string `json:"Format,omitempty"`
@@ -177,7 +177,7 @@ type Resources []struct {
 				DetailedMetricsEnabled bool   `json:"DetailedMetricsEnabled,omitempty"`
 				LoggingLevel           string `json:"LoggingLevel,omitempty"`
 				ThrottlingBurstLimit   int    `json:"ThrottlingBurstLimit,omitempty"`
-				ThrottlingRatelLimit    int    `json:"ThrottlingRateLimit,omitempty"`
+				ThrottlingRatelLimit   int    `json:"ThrottlingRateLimit,omitempty"`
 			} `json:"DefaultRouteSettings,omitempty"`
 			DeploymentID                string `json:"DeploymentId,omitempty"`
 			Description                 string `json:"Description,omitempty"`

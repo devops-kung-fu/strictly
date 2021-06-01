@@ -240,7 +240,7 @@ type ASFF []struct {
 			URL  string `json:"Url,omitempty"`
 		} `json:"Recommendation,omitempty"`
 	} `json:"Remediation,omitempty"`
-	Resources `json:"Resources"`
+	Resources     `json:"Resources"`
 	SchemaVersion string `json:"SchemaVersion"`
 	Severity      struct {
 		Label      string `json:"Label,omitempty"`
